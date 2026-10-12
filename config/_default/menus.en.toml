@@ -1,0 +1,99 @@
+# Top navigation: one dropdown per competency area.
+
+[[main]]
+  name = "Development"
+  identifier = "development"
+  weight = 10
+[[main]]
+  name = "Medium-Scale Abstraction"
+  parent = "development"
+  pageRef = "development/abstraction"
+  weight = 1
+[[main]]
+  name = "Medium-Scale Architecture"
+  parent = "development"
+  pageRef = "development/architecture"
+  weight = 2
+
+[[main]]
+  name = "Verification"
+  identifier = "verification"
+  weight = 20
+[[main]]
+  name = "Testing Strategies"
+  parent = "verification"
+  pageRef = "verification/testing-strategies"
+  weight = 1
+[[main]]
+  name = "Testing Infrastructure"
+  parent = "verification"
+  pageRef = "verification/testing-infrastructure"
+  weight = 2
+
+[[main]]
+  name = "Design"
+  identifier = "design"
+  weight = 30
+[[main]]
+  name = "Needfinding"
+  parent = "design"
+  pageRef = "design/needfinding"
+  weight = 1
+[[main]]
+  name = "Ideation"
+  parent = "design"
+  pageRef = "design/ideation"
+  weight = 2
+[[main]]
+  name = "Prototyping"
+  parent = "design"
+  pageRef = "design/prototyping"
+  weight = 3
+[[main]]
+  name = "Evaluation"
+  parent = "design"
+  pageRef = "design/evaluation"
+  weight = 4
+
+[[main]]
+  name = "Engineering"
+  identifier = "engineering"
+  weight = 40
+[[main]]
+  name = "Infrastructure"
+  parent = "engineering"
+  pageRef = "engineering/infrastructure"
+  weight = 1
+[[main]]
+  name = "Self-Learning"
+  parent = "engineering"
+  pageRef = "engineering/self-learning"
+  weight = 2
+[[main]]
+  name = "Process"
+  parent = "engineering"
+  pageRef = "engineering/process"
+  weight = 3
+[[main]]
+  name = "Collaboration"
+  parent = "engineering"
+  pageRef = "engineering/collaboration"
+  weight = 4
+
+# Footer: quick jump to each area overview.
+[[footer]]
+  name = "Development"
+  pageRef = "development"
+  weight = 10
+[[footer]]
+  name = "Verification"
+  pageRef = "verification"
+  weight = 20
+[[footer]]
+  name = "Design"
+  pageRef = "design"
+  weight = 30
+[[footer]]
+  name = "Engineering"
+  pageRef = "engineering"
+  weight = 40
